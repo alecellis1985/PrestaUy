@@ -1,8 +1,9 @@
 (function () {
   'use strict';
+  debugger;
   angular.module('shared').controller('homeCtrl', homeCtrl);
-  homeCtrl.$inject = ['$translate', '$timeout', '$rootScope', 'CommonService'];
-  function homeCtrl($translate, $timeout, $rootScope, CommonService) {
+  homeCtrl.$inject = ['$timeout', '$rootScope', 'CommonService'];
+  function homeCtrl($timeout, $rootScope, CommonService) {
     var vm = this;
     vm.user = {};
 

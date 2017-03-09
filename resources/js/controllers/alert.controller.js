@@ -1,5 +1,6 @@
 (function () {
   'use strict';
+  debugger;
   angular.module('shared').controller('alertCtrl', alertCtrl);
 
   alertCtrl.$inject = ['$scope', '$timeout'];
@@ -33,4 +34,4 @@
       vm.alerts.splice(index, 1);
     }
   }
-});
+})();

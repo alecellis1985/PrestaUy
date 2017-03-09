@@ -5,20 +5,20 @@
  */
 
 (function () {
-    'use strict';
-
-    angular.module('shared').controller('headerController', headerController);
-    headerController.$inject = ['$timeout'];
-    function headerController($timeout) {
-        var vm = this;
-        vm.showLogo = showLogo;
-        vm.showLogo1 = false;
-        vm.collapsed = false;
-        function showLogo() {
-            $timeout(function () {
-                vm.showLogo1 = true;
-            }, 200);
-        }
-
+  'use strict';
+  debugger;
+  angular.module('shared').controller('headerController', headerController);
+  headerController.$inject = ['$timeout'];
+  function headerController($timeout) {
+    var vm = this;
+    vm.showLogo = showLogo;
+    vm.showLogo1 = false;
+    vm.collapsed = false;
+    function showLogo() {
+      $timeout(function () {
+        vm.showLogo1 = true;
+      }, 200);
     }
+
+  }
 })();

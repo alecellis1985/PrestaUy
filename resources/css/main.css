@@ -81,6 +81,7 @@ form input,form textarea{
 .formP p{
   color: white!important;
   font-weight: 600;
+  position: relative;
 }
 
 .line{
@@ -353,4 +354,18 @@ p{
 }
 .header-and-body-container .container .info span .fa {
   color: #EF3B3A;
+}
+
+.inputError{
+  color: #f00;
+  position: absolute;
+  bottom: 2px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.q_circle_text_holder:hover{
+  color: #ec971f;
+  font-weight: bold;
+  transition: color 1s;
 }
