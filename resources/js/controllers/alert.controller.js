@@ -1,6 +1,6 @@
 (function () {
   'use strict';
-  debugger;
+  //debugger;
   angular.module('shared').controller('alertCtrl', alertCtrl);
 
   alertCtrl.$inject = ['$scope', '$timeout'];

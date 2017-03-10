@@ -1,7 +1,7 @@
 // This module contains the templates for all shared modules (see BundleConfig)
 (function () {
   'use strict';
-  debugger;
+  //debugger;
   angular.module('shared').run(runBlock);
 
   runBlock.$inject = ['$rootScope', '$window'];
