@@ -6,7 +6,7 @@
 
 (function () {
   'use strict';
-  debugger;
+  //debugger;
   angular.module('shared').controller('headerController', headerController);
   headerController.$inject = ['$timeout'];
   function headerController($timeout) {

@@ -1,6 +1,6 @@
 (function () {
   'use strict';
-  debugger;
+  //debugger;
   angular.module('shared').controller('homeCtrl', homeCtrl);
   homeCtrl.$inject = ['$timeout', '$rootScope', 'CommonService'];
   function homeCtrl($timeout, $rootScope, CommonService) {

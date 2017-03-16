@@ -29,6 +29,8 @@ body
 
 .frmbtm img{
   width: 100%;
+  height: 800px;
+  object-fit: cover;
 }
 
 button{
@@ -105,6 +107,7 @@ form input,form textarea{
   position: absolute;
   top: 45%;
   width: 100%;
+  word-break: initial;
 }
 
 .navbar-default .navbar-nav>li>a{
@@ -128,6 +131,7 @@ form input,form textarea{
   width: 100%;
   top: 0;
   z-index: -1;
+  margin-top: 90px;
 }
 
 .comohcmos{
@@ -176,6 +180,8 @@ p{
   line-height: 1.375em;
   font-weight: 300;
   color: #9d9d9d;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 
@@ -198,7 +204,7 @@ p{
 
   letter-spacing: 3px;
   text-transform: uppercase;
-  word-break: break-all;
+  word-break: initial;
   padding: 21px 40px;
 }
 

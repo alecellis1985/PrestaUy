@@ -12,6 +12,7 @@
     <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic|Open+Sans:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic|Raleway:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic|Playfair+Display:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
     <link href="resources/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
     <link href="resources/css/main.css" rel="stylesheet" type="text/css"/>
+    <link href="resources/css/responsive.css" rel="stylesheet" type="text/css"/>
     <script src='https://www.google.com/recaptcha/api.js'></script>
   </head>
   <body>
@@ -30,7 +31,7 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li>
+            <li class="border-bot">
 
               <a href="javascript:;">
                 <img id="prestaLogo" src="resources/img/Prestauy-logo-lateral-transparente-300x114.png" height="90" width="237" alt="Prestamos"/>
@@ -40,10 +41,10 @@
             <li><a href="#contact">Contact</a></li>-->
           </ul>
           <ul class="nav navbar-nav navbar-right">
-            <li>
-              <a href="javascript:;" scroll-to scroll-to-elem=".imgcont" reduce-offset="100">Inicio<span>|</span></a>
+            <li class="border-bot">
+              <a href="javascript:;" scroll-to scroll-to-elem=".imgcont" reduce-offset="100" >Inicio<span>|</span></a>
             </li>
-            <li>
+            <li class="border-bot">
               <a href="javascript:;" scroll-to scroll-to-elem=".comohcmos" reduce-offset="100">Nosotros<span>|</span></a>
             </li>
             <li>
@@ -76,8 +77,8 @@
           <div id="abjknai">
             <div class="row">
               <div class="col-xs-12">
-                <ul>
-                  <li>
+                <ul class="row">
+                  <li class="col-xs-6 col-sm-2">
                     <div class="q_circle_text_holder">
                       <span class="line"></span>
                       <span class="glyphicon glyphicon-ok"></span>
@@ -86,7 +87,7 @@
                         mensuales muy accesibles.</p>
                     </div>
                   </li>
-                  <li>
+                  <li class="col-xs-6 col-sm-2">
                     <div class="q_circle_text_holder">
                       <span class="line"></span>
                       <span class="glyphicon glyphicon-time"></span>
@@ -95,7 +96,7 @@
                         de tasación de propiedad.</p>
                     </div>
                   </li>
-                  <li>
+                  <li class="col-xs-6 col-sm-2">
                     <div class="q_circle_text_holder">
                       <span class="line"></span>
                       <span class="glyphicon glyphicon-pencil"></span>
@@ -104,7 +105,7 @@
                         especializados en cada rubro.</p>
                     </div>
                   </li>
-                  <li>
+                  <li class="col-xs-6 col-sm-2">
                     <div class="q_circle_text_holder">
                       <span class="line"></span>
                       <span class="glyphicon glyphicon-briefcase"></span>
@@ -114,7 +115,7 @@
                       </p>
                     </div>
                   </li>
-                  <li>
+                  <li class="col-xs-6 col-sm-2">
                     <div class="q_circle_text_holder">
                       <span class="line"></span>
                       <span class="glyphicon glyphicon-refresh"></span>
@@ -128,13 +129,65 @@
               </div>
             </div>
           </div>
+          <div id="abjknai-responsive" hidden>
+            <div class="row">
+              <div class="col-xs-6">
+                <div class="q_circle_text_holder">
+                      <span class="line"></span>
+                      <span class="glyphicon glyphicon-ok"></span>
+                      <h5 class="q_circle_title" style="">Términos</h5>
+                      <p class="q_circle_text" style="">Puesta en marcha y tasas<br>
+                        mensuales muy accesibles.</p>
+                    </div>
+                    </div>
+                  <div class="col-xs-6">
+                    <div class="q_circle_text_holder">
+                      <span class="line"></span>
+                      <span class="glyphicon glyphicon-time"></span>
+                      <h5 class="q_circle_title" style="">Implementación</h5>
+                      <p class="q_circle_text" style="">Rápida resolución, sin costo<br>
+                        de tasación de propiedad.</p>
+                    </div>
+                  </div>
+                  <div class="col-xs-6">
+                    <div class="q_circle_text_holder">
+                      <span class="line"></span>
+                      <span class="glyphicon glyphicon-pencil"></span>
+                      <h5 class="q_circle_title" style="">Asesoramiento</h5>
+                      <p class="q_circle_text" style="">Grupo de profesionales<br>
+                        especializados en cada rubro.</p>
+                    </div>
+                  </div>
+                  <div class="col-xs-6">
+                    <div class="q_circle_text_holder">
+                      <span class="line"></span>
+                      <span class="glyphicon glyphicon-briefcase"></span>
+                      <h5 class="q_circle_title" style="">Experiencia</h5>
+                      <p class="q_circle_text" style="">Varios años en el rubro, los clientes<br>
+                        nos avalan.<br>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="col-xs-12">
+                    <div class="q_circle_text_holder">
+                      <span class="line"></span>
+                      <span class="glyphicon glyphicon-refresh"></span>
+                      <h5 class="q_circle_title" style="">Confianza</h5>
+                      <p class="q_circle_text" style="">Total seriedad y confidencialidad.<br>
+                      </p>
+                    </div>
+                  </div>
+
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       <div class="row ctoa">
-        <div class="col-xs-6 col-xs-offset-2">
+        <div class="col-xs-12 col-sm-6 col-sm-offset-2">
           <p class="text-center">Por que su crédito está a tan solo al alcance de un click, consúltenos para su tranquilidad.</p>
         </div>
-        <div class="col-xs-4">
+        <div class="col-xs-12 col-sm-4">
           <button type="button" class="btn btn-warning">Saber Más</button>
         </div>
       </div>
