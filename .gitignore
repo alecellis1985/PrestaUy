@@ -1,1 +1,13 @@
 /nbproject/private/
+/node_modules/
+/resources/vendor/node_modules/run-sequence/
+/resources/vendor/node_modules/gulp-imagemin/
+/resources/vendor/node_modules/gulp-sass/
+/resources/vendor/node_modules/gulp/
+/resources/vendor/node_modules/gulp-cache/
+/resources/vendor/node_modules/gulp-useref/
+/resources/vendor/node_modules/gulp-uglify/
+/resources/vendor/node_modules/del/
+/resources/vendor/node_modules/browser-sync/
+/resources/vendor/node_modules/gulp-npm-files/
+/dist/
