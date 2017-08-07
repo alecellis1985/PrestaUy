@@ -375,3 +375,14 @@ p{
   font-weight: bold;
   transition: color 1s;
 }
+.addr {
+    left: 15px;
+    top: 31px !important;
+    color: #000 !important;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: 2px;
+    font-family: Open Sans,sans-serif;
+    display: inline!important;
+}
