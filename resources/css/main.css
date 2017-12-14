@@ -382,3 +382,22 @@ p{
     font-family: Open Sans,sans-serif;
     display: inline!important;
 }
+div.alert {
+    font-family: Open Sans,sans-serif;
+    position: absolute;
+    margin-top: 150px;
+    text-align: center;
+    left: 10%;
+    width: 80%;
+    color: #0d75bb;
+    padding: 35px;
+}
+    div.alert button {
+        padding: 0 !important;
+        font-size: 35px;
+        line-height: 0.9;
+        opacity: 0.6;
+        color: #0d75bb !important;
+        height: auto;
+        margin-top: -5px;
+    }
