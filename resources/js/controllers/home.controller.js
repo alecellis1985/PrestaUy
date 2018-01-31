@@ -14,7 +14,7 @@
       }
       CommonService.postJsonRequest('api/sendMail', vm.user).then(function (result) {
         if (result.data.success) {
-            window.location = 'https://www.prestauy.com/gracias';
+            window.location = 'https://www.prestauy.com/gracias.html';
             //$rootScope.$broadcast('alert-event', {type: 'success', msg: 'Muchas gracias por su contacto. Nos estaremos comunicando a la brevedad'});
         } else {
           //$rootScope.$broadcast('alert-event', {type: 'danger', msg: result.data.msg});
